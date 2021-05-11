@@ -8,5 +8,9 @@ namespace SRP.Utils
 {
     class Notify
     {
+        public Notify(Client client) 
+        {
+            Console.WriteLine("A notificar o cliente");
+        }
     }
 }

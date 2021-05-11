@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SRP
+namespace OCP
 {
-    class Program
+    enum TypeVehicle
     {
-        static void Main(string[] args)
-        {
-
-        }
+        CAR,
+        MOTORCYCLE
     }
 }
