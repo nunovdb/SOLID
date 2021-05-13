@@ -49,6 +49,7 @@
     <Compile Include="Vehicles\Car.cs" />
     <Compile Include="Vehicles\Mortorcycle.cs" />
     <Compile Include="Vehicles\Vehicle.cs" />
+    <Compile Include="Vehicles\IVehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
