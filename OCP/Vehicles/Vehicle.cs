@@ -1,7 +1,7 @@
 ﻿using System;
 namespace OCP.Vehicles
 {
-    public class Vehicle
+    public class Vehicle : IVehicle
     {
         protected string Color;
         protected int Year;
