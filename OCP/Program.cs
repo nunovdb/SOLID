@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OCP.Vehicles;
 
 namespace OCP
 {
@@ -16,13 +17,12 @@ namespace OCP
 
             if (type == TypeVehicle.CAR)
             {
-                Vehicle vehicle = new Vehicle("Red", 2022, 2.0, 5, 4);
-                vehicle.Car();
+                Car car = new Car("Red", 2022, 2.0, 5, 4);
             }
             else 
             {
-                Vehicle vehicle = new Vehicle("Yellow", 2021, 250, 0, 0);
-                vehicle.Motorcycle();
+                Mortorcycle mortorcycle = new Mortorcycle("Yellow", 2021, 250);
+               
             }
 
             Console.ReadLine();
